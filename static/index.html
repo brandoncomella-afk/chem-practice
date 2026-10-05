@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chemistry Practice Question Lists</title>
+<style>
+*{box-sizing:border-box}
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1c2024;--muted:#5f6670;--line:#e3e6ea;
+ --accent:#1f3864;--accent2:#2e5496;--ok:#0f7b3d;--okbg:#e8f6ed;--chip:#eef1f5}
+@media (prefers-color-scheme:dark){
+ :root{--bg:#12151a;--card:#1a1e25;--ink:#e8eaed;--muted:#9aa3ad;--line:#2c323b;
+ --accent:#8ab4f8;--accent2:#a8c7fa;--ok:#5cd18a;--okbg:#12331f;--chip:#242a33}
+}
+html,body{margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);
+ font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding:0 0 60px}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+header{background:var(--card);border-bottom:1px solid var(--line);padding:22px 0 18px;margin-bottom:20px}
+h1{margin:0 0 4px;font-size:23px;color:var(--accent)}
+.sub{margin:0;color:var(--muted);font-size:14.5px}
+.crumb{font-size:14px;margin:0 0 8px}
+a{color:var(--accent2)}
+.box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin-bottom:18px}
+.box p{margin:.35rem 0;font-size:15px}
+.toc{columns:2;column-gap:24px;margin:0;padding-left:20px;font-size:15px}
+@media(max-width:600px){.toc{columns:1}}
+.toc li{margin:2px 0;break-inside:avoid}
+.toc .c{color:var(--muted);font-size:13px}
+h2{font-size:19px;color:var(--accent);margin:32px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--line)}
+.q{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:0 0 12px}
+.qh{font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.lv{display:inline-block;padding:1px 8px;border-radius:999px;background:var(--chip);margin-left:6px}
+.stem{margin:0 0 8px;font-weight:500}
+ol.opts{list-style:none;margin:0 0 6px;padding:0}
+ol.opts li{padding:3px 0 3px 30px;position:relative}
+ol.opts li b{position:absolute;left:0;color:var(--muted)}
+details{margin-top:6px;border-top:1px dashed var(--line);padding-top:6px}
+summary{cursor:pointer;color:var(--accent2);font-weight:600;font-size:14.5px}
+.ans{background:var(--okbg);border-radius:8px;padding:10px 12px;margin-top:8px;font-size:15px}
+.ans b{color:var(--ok)}
+.top{font-size:13px}
+.grid{display:grid;gap:10px}
+@media(min-width:620px){.grid{grid-template-columns:1fr 1fr}}
+a.unit{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);
+ border-left:4px solid var(--accent2);border-radius:8px;padding:12px 14px}
+a.unit .n{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+a.unit .t{display:block;font-weight:600;color:var(--accent)}
+a.unit .s{display:block;font-size:14px;color:var(--muted)}
+footer{margin-top:30px;color:var(--muted);font-size:13px;text-align:center}
+@media print{
+ body{background:#fff;color:#000}
+ header,.box,.q{border-color:#bbb}
+ .q{break-inside:avoid}
+ details{display:none}
+}
+</style></head><body>
+<header><div class="wrap">
+<h1>Chemistry &mdash; Practice Question Lists</h1>
+<p class="sub">All 1610 practice questions, every unit, answers included</p>
+</div></header>
+<div class="wrap">
+<div class="box">
+<p>These are the same questions as the interactive practice, laid out as one simple page per unit. Work a question, then tap <em>Show answer</em> to check it.</p>
+</div>
+<div class="grid"><a class="unit" href="unit-01.html"><span class="n">Unit 1 &middot; 155 questions</span><span class="t">Introduction to Chemistry</span><span class="s">A Shot in the Dark</span></a><a class="unit" href="unit-02.html"><span class="n">Unit 2 &middot; 135 questions</span><span class="t">Atomic Theory</span><span class="s">Found or Forgery</span></a><a class="unit" href="unit-03.html"><span class="n">Unit 3 &middot; 130 questions</span><span class="t">The Periodic Table</span><span class="s">Conflict and Cellphones</span></a><a class="unit" href="unit-04.html"><span class="n">Unit 4 &middot; 140 questions</span><span class="t">Bonding</span><span class="s">When Bonds Break</span></a><a class="unit" href="unit-05.html"><span class="n">Unit 5 &middot; 150 questions</span><span class="t">Moles</span><span class="s">The Case of the Poisonous Pill</span></a><a class="unit" href="unit-06.html"><span class="n">Unit 6 &middot; 150 questions</span><span class="t">Chemical Equations</span><span class="s">The Secret Recipe</span></a><a class="unit" href="unit-07.html"><span class="n">Unit 7 &middot; 150 questions</span><span class="t">Chemical Equations</span><span class="s">Crash</span></a><a class="unit" href="unit-08.html"><span class="n">Unit 8 &middot; 150 questions</span><span class="t">Stoichiometry</span><span class="s">The Alchemist&#x27;s Apprentice</span></a><a class="unit" href="unit-09.html"><span class="n">Unit 9 &middot; 150 questions</span><span class="t">Thermochemistry and the Stardust Fire</span><span class="s">Tragedy or Crime</span></a><a class="unit" href="unit-10.html"><span class="n">Unit 10 &middot; 150 questions</span><span class="t">Gas Laws and the Brooklyn Bridge Caisson</span><span class="s">In Too Deep</span></a><a class="unit" href="unit-11.html"><span class="n">Unit 11 &middot; 150 questions</span><span class="t">Solutions and the White River Fish Kill</span><span class="s">An Aquatic Apocalypse</span></a></div>
+<footer>Mr. Comella &middot; Chemistry</footer>
+</div>
+</body></html>
